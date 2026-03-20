@@ -1,0 +1,69 @@
+
+body {
+	font-family: "Oswald", sans-serif;
+	font-size-adjust: 0.7;
+	background-color: rgb(30,40,40);
+	color:rgb(160,200,255);
+	text-align: center;
+}
+
+@media(max-width:500px) {
+	.container{
+		width: 484px;
+	}	
+}
+
+#lien1 {
+	color: #76D2DB;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size:  50;
+	color: white;
+}
+h2, h3, h4, h5, h6 {
+	font-family: Futura, sans-serif;
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	text-decoration: underline;
+}
+
+.photos {
+	border-radius: 10px;
+}
+
+#my-picture {
+	border-radius: 50%;
+}
+
+.fa-brands {
+	font-size: 60px;
+	color: #76D2DB;
+	transition: 0.3s
+}
+.fa-brands:hover {
+	color: red;
+}
+
+.card-grey {
+	max-width: 700px;	
+	background-color: rgba(140,140,140,0.7);
+	border-color: rgb(160,200,255);
+	margin:20px auto;
+	padding:40px;
+	box-shadow:10px 10px 20px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.lists {
+	list-style: none;
+}
+
+#my-socials li {
+	display: inline-block;
+	padding: 0px 20px;
+}
